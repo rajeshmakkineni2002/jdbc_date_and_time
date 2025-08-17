@@ -1,5 +1,5 @@
 import java.util.Date;
-public class Main 
+public class dateandtime 
 {
     public static void main(String args [])
     {
@@ -9,6 +9,6 @@ public class Main
         long value =udate.getTime();
 
         java.sql.Date sqlDate = new java.sql.Date(value);
-        System.out.println("sqldate is : : " + sqlDate);
+        System.out.println("sqldate is : : " + sqlDate) ; 
     }
 }
