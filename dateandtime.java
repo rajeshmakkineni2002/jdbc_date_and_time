@@ -10,5 +10,6 @@ public class dateandtime
 
         java.sql.Date sqlDate = new java.sql.Date(value);
         System.out.println("sqldate is : : " + sqlDate) ; 
+        System.out.println("Thanks ");
     }
 }
